@@ -43,3 +43,8 @@
     transition: all 0.3s ease;
   }
 }
+@media (max-width: 520px) {
+  .subNav {
+    overflow-x: auto;
+  }
+}
