@@ -11,8 +11,18 @@
 }
 .menuContainer {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   max-width: 908px;
   margin: 0 auto;
   padding: 0 12px;
+}
+@media (max-width: 520px) {
+  .menuContainer {
+    flex-direction: column;
+  }
+  .menu {
+    margin-bottom: 24px;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }

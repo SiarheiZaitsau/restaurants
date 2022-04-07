@@ -1,5 +1,6 @@
 .restaurantLink {
   margin-bottom: 20px;
+  width: 100%;
   &:last-of-type {
     margin-bottom: 0;
   }
@@ -7,7 +8,7 @@
 .restaurant {
   display: flex;
   flex-direction: column;
-  width: 780px;
+  width: 100%;
   height: 145px;
   border: 1px solid #e5e5e5;
   align-items: flex-start;
@@ -15,7 +16,7 @@
   padding: 20px;
   &:hover {
     box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
-    transition: box-shadow .3s ease;
+    transition: box-shadow 0.3s ease;
   }
 }
 .restaurant__container {
@@ -25,17 +26,15 @@
 .restaurant__img {
   width: 100px;
   margin-right: 20px;
-
 }
 .restaurant__title {
   font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
+  line-height: 28px;
+  font-weight: 600;
 }
 .restaurant__text {
   display: flex;
   flex-direction: column;
-
 }
 .restaurant__type {
   display: flex;

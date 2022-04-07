@@ -6,7 +6,7 @@
   width: 100%;
   background-color: rgb(229, 229, 229);
   margin-bottom: 30px;
-  height: 48px
+  height: 48px;
 }
 
 .subNav {
@@ -21,7 +21,7 @@
 .subNavItem {
   margin-right: 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
   height: 100%;
   &:last-of-type {
     margin-right: 0;
@@ -30,7 +30,7 @@
 
 .active {
   box-shadow: 0 3px 0 0 #1d1d1d;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .link {
   display: flex;

@@ -4,7 +4,6 @@ function basket(state = initialState, action) {
   switch (action.type) {
     case "DISH_TO_BASKET": {
       const isDishExist = state.some((el) => el.id === action.payload.id);
-      console.log(isDishExist, "es");
       let newState = [...state];
       if (isDishExist) {
         newState = state.map((item) => {

@@ -17,7 +17,6 @@ function Reviews() {
     });
     setRestaurantData(...resData);
   }, [data, id]);
-  console.log(restaurantData, "data");
   return (
     <>
       <SubNav />
