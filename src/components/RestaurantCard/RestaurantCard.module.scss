@@ -1,0 +1,51 @@
+.restaurantLink {
+  margin-bottom: 20px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  height: 145px;
+  border: 1px solid #e5e5e5;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  &:hover {
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+    transition: box-shadow .3s ease;
+  }
+}
+.restaurant__container {
+  display: flex;
+  flex-direction: row;
+}
+.restaurant__img {
+  width: 100px;
+  margin-right: 20px;
+
+}
+.restaurant__title {
+  font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.restaurant__text {
+  display: flex;
+  flex-direction: column;
+
+}
+.restaurant__type {
+  display: flex;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.rated {
+  pointer-events: none;
+}
+.voteAmount {
+  margin-left: 5px;
+}

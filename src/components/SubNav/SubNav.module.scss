@@ -1,0 +1,45 @@
+.subNavWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  margin-bottom: 30px;
+  height: 48px
+}
+
+.subNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 100%;
+}
+
+.subNavItem {
+  margin-right: 20px;
+  display: flex;
+  align-items:center;
+  height: 100%;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.active {
+  box-shadow: 0 3px 0 0 #1d1d1d;
+  transition: all .3s ease;
+}
+.link {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 6px);
+  font-size: 16px;
+  line-height: 24px;
+  &:hover {
+    box-shadow: 0 3px 0 0 #1d1d1d;
+    transition: all 0.3s ease;
+  }
+}

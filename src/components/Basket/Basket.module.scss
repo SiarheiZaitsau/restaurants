@@ -1,0 +1,100 @@
+.emptyBasket {
+  height: 98px;
+  width: 388px;
+  background-color: #fff0db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basketContainer {
+  margin-left: 24px;
+}
+.emptyBasket__txt {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+.basketTitle {
+  text-align: center;
+  margin: 20px 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.basketNotEmpty {
+  padding: 13px 16px 20px;
+  width: 376px;
+  background-color: #fff0db;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.basketItem {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  &:last-of-type {
+    margin-bottom: 22px;
+  }
+}
+.basket {
+  list-style: none;
+}
+.price {
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 24px; 
+}
+.dishName {
+  line-height: 1.2;
+  font-size: 14px;
+  width: 50%;
+}
+.amount {
+  margin: 0 6px;
+  line-height: 18.4px;
+}
+.button {
+  width: 20px;
+  height: 20px;
+  color: #fff0db;
+  font-size: 20px;
+  background: #8e8e8e;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  cursor: pointer;
+}
+.price {
+  margin-left: auto;
+}
+.counter {
+  display: flex;
+  align-items: center;
+}
+.separator {
+  border-top-color: #1d1d1d;
+  height: 1px;
+  margin: 14px 0;
+}
+.totalPrice {
+  font-weight: 700;
+}
+.submit {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  background: #e4661e;
+  text-transform: uppercase;
+  &:hover {
+    background: #f0894e;
+    transition: background .3s ease;
+  }
+}

@@ -1,0 +1,26 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 16px;
+  &:hover {
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.3s ease;
+  }
+}
+.name {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.rating {
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+}

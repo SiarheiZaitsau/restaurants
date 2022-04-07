@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.menuContainer {
+  display: flex;
+  justify-content:center;
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
